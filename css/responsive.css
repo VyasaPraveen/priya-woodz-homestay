@@ -1,0 +1,298 @@
+﻿@media (max-width: 1199.98px) {
+  .gallery-grid {
+    column-count: 2;
+  }
+
+  .split-media img {
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-padding {
+    padding: 80px 0;
+  }
+
+  .navbar-brand {
+    padding: 0.35rem;
+  }
+
+  .brand-mark {
+    width: 112px;
+    height: 64px;
+  }
+
+  .navbar-collapse {
+    background: rgba(248, 245, 242, 0.98);
+    margin-top: 14px;
+    border-radius: 22px;
+    padding: 18px;
+    box-shadow: var(--shadow);
+  }
+
+  .navbar-nav {
+    gap: 0.2rem;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 0.95rem 1rem !important;
+    border-radius: 14px;
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus,
+  .nav-link.active {
+    background: rgba(200, 155, 60, 0.14);
+    color: var(--primary-dark);
+  }
+
+  .action-pills {
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+
+  .action-pills .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 164px 0 90px;
+  }
+
+  .display-title {
+    font-size: clamp(2.9rem, 9vw, 4.6rem);
+  }
+
+  .hero-card {
+    padding: 24px;
+  }
+
+  .hero-stat strong {
+    font-size: 1.65rem;
+  }
+
+  .floating-panel {
+    position: static;
+    margin-top: 20px;
+    max-width: none;
+  }
+
+  .stats-band {
+    margin-top: 0;
+  }
+
+  .carousel-shell .carousel-item img {
+    height: 460px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .container,
+  .container-fluid,
+  .row,
+  .hero,
+  .section-padding,
+  .carousel-shell,
+  .footer {
+    max-width: 100%;
+  }
+
+  .topbar {
+    display: none;
+  }
+
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    min-height: 88px;
+    padding: 0.75rem 0;
+    z-index: 1040;
+  }
+
+  .navbar > .container {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .navbar {
+    padding: 0.75rem 0;
+  }
+
+  .display-title {
+    font-size: 2.55rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .hero .eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+  }
+
+  .hero p.lead {
+    font-size: 1rem;
+  }
+
+  .gallery-grid {
+    column-count: 1;
+  }
+
+  .feature-card,
+  .info-card,
+  .facility-card {
+    text-align: center !important;
+  }
+
+  .feature-card,
+  .booking-card,
+  .payment-card,
+  .contact-card,
+  .policy-card,
+  .info-card,
+  .facility-card {
+    padding: 24px;
+  }
+
+  .feature-icon,
+  .facility-icon,
+  .mini-icon {
+    display: flex !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .facility-card ul,
+  .timing-list,
+  .contact-list,
+  .policy-list,
+  .bank-list {
+    justify-items: center;
+    text-align: center;
+  }
+
+  .facility-card li {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .facility-card li::before {
+    display: none;
+  }
+
+  .brand-mark {
+    width: 86px;
+    height: 50px;
+    border-radius: 14px;
+  }
+
+  .navbar-toggler {
+    padding: 0.48rem 0.62rem;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  .facilities-banner,
+  .page-hero {
+    margin-top: 0;
+    padding: 150px 0 70px;
+  }
+
+  .footer,
+  .footer h5,
+  .footer p,
+  .footer a,
+  .footer span {
+    text-align: center !important;
+  }
+
+  .footer .row > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+  }
+
+  .footer .d-grid {
+    justify-items: center !important;
+    width: 100%;
+  }
+
+  .footer-social {
+    justify-content: center !important;
+    width: 100%;
+  }
+
+  .footer-map {
+    width: 100%;
+  }
+
+  .footer-bottom .container {
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .whatsapp-float {
+    right: 16px;
+    bottom: 16px;
+  }
+
+  .carousel-shell .carousel-item img {
+    height: 320px;
+  }
+
+  .carousel-caption-custom {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    padding: 16px 18px;
+    max-width: none;
+  }
+
+  .carousel-caption-custom h3 {
+    font-size: 1.12rem;
+  }
+
+  .carousel-caption-custom p {
+    font-size: 0.92rem;
+  }
+
+  .carousel-shell .carousel-control-prev,
+  .carousel-shell .carousel-control-next {
+    width: 42px;
+    height: 42px;
+    top: 16px;
+  }
+
+  .carousel-shell .carousel-control-prev {
+    right: 66px;
+  }
+
+  .carousel-shell .carousel-control-next {
+    right: 16px;
+  }
+
+  .carousel-shell .carousel-indicators {
+    margin-bottom: 0.55rem;
+  }
+
+  .carousel-shell .carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+
