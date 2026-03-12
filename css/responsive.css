@@ -245,6 +245,10 @@
     text-align: center;
   }
 
+  .temple-facts {
+    grid-template-columns: 1fr;
+  }
+
   .whatsapp-float {
     right: 16px;
     bottom: 16px;
